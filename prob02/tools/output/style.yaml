@@ -1,0 +1,24 @@
+---
+MainSourceFile:  '/home/crimsongnome/Desktop/lab-08-crimsonGnome/prob02/kangaroo.cc'
+Diagnostics:
+  - DiagnosticName:  google-explicit-constructor
+    DiagnosticMessage:
+      Message:         single-argument constructors must be marked explicit to avoid unintentional implicit conversions
+      FilePath:        './joey.h'
+      FileOffset:      267
+      Replacements:
+        - FilePath:        './joey.h'
+          Offset:          267
+          Length:          0
+          ReplacementText: 'explicit '
+  - DiagnosticName:  google-explicit-constructor
+    DiagnosticMessage:
+      Message:         single-argument constructors must be marked explicit to avoid unintentional implicit conversions
+      FilePath:        './kangaroo.h'
+      FileOffset:      325
+      Replacements:
+        - FilePath:        './kangaroo.h'
+          Offset:          325
+          Length:          0
+          ReplacementText: 'explicit '
+...

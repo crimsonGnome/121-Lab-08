@@ -1,0 +1,14 @@
+---
+MainSourceFile:  '/home/crimsongnome/Desktop/lab-08-crimsonGnome/prob01/rect.cc'
+Diagnostics:
+  - DiagnosticName:  readability-redundant-member-init
+    DiagnosticMessage:
+      Message:         'initializer for base class ''Button'' is redundant'
+      FilePath:        toggle_button.cc
+      FileOffset:      252
+      Replacements:
+        - FilePath:        toggle_button.cc
+          Offset:          252
+          Length:          9
+          ReplacementText: ''
+...
